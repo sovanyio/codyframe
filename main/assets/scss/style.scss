@@ -1,0 +1,8 @@
+@use 'config' as *; // ← customize the framework
+
+@use 'base/base';
+
+@use 'util'; // ← utility classes
+
+// ← import here the CodyHouse components
+@import "components/**/*.scss";
